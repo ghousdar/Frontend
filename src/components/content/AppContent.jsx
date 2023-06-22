@@ -1,7 +1,7 @@
 import React from "react";
 
-import { Navigate, Route, Routes } from "react-router-dom";
-import routes from "../routes";
+import { Route, Routes } from "react-router-dom";
+import routes from "../../routes";
 
 const AppContent = () => {
   return (
