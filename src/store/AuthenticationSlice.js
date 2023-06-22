@@ -10,7 +10,12 @@
   email: "",
   _id: "",
   role: "",
-  
+  gender:"",
+  loginStatus:"",
+  loginError:"",
+  registerStatus:"",
+  registerError:"",
+
 };
 
 const authSlice = createSlice({
