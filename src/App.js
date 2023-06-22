@@ -12,14 +12,14 @@ function App() {
         <Routes>
           <Route
             exact
-            path="notfound"
+            path="*"
             name="Not Found"
             element={<NotFound />}
           />
           <Route exact path="login" name="Login" element={<Login/>} />
           <Route exact path="register" name="Register" element={<Register/>} />
 
-          <Route path="*" element={<DefaultLayout/>} />
+          <Route path="/" element={<DefaultLayout/>} />
         </Routes>
       </BrowserRouter>
     </>
